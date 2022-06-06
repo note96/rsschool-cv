@@ -18,12 +18,11 @@ Maecenas eget consectetur sem, vitae maximus mi. Nulla vel tempus lectus. Nulla 
 
 **************************************
 ## Skills:
-
 1. *HTML5, CSS3*
-2. *JavaScript*
+2. *Python , Django*
+3. *Figma*
+4. *JavaScript*
 3. *Git, GitHub*
-4. *Python , Django*
-5. *Figma*
 **************************************
 
 ## Code example: 
