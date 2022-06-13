@@ -10,13 +10,14 @@
 </head>
 <body>
     <header class="header">
-        <div class="container">
+        <div class="container header-container">
             <div class="header-logo">
-                <a href="" class="header-logo-link"></a>
+                <a href="https://rs.school/js/" class="logo">
+                    <img class="logo-img" src="/img/logo.svg" alt="Rs scholl" >
+                </a>
             </div>
             <nav class="header-nav">
                 <ul class="header-nav-list">
-                    <li class="header-nav-list-item"> <a href="" class="header-nav-item-link">Contacts</a></li>
                     <li class="header-nav-list-item"> <a href="" class="header-nav-item-link">Summary</a></li>
                     <li class="header-nav-list-item"> <a href="" class="header-nav-item-link">Skills</a></li>
                     <li class="header-nav-list-item"> <a href="" class="header-nav-item-link">Code</a></li>
@@ -35,24 +36,40 @@
                 <div class="developer">
                     <div class="developer-name">
                         <h1 class="developer-name-h1">Evgeny Voronetsky</h1>
-                        <h2 class="developer-name-h2">junior front-end developer</h2>
+                        <ul class="developer-list">
+                            <li class="developer-item">
+                                <a href="tel:+375447777777" class="developer-item-phone">
+                                    +37544-777-77-77
+                                </a>
+                            </li>
+                            <li class="developer-item">
+                                <a href="mailto:developer-item-mail" class="developer-item-mail">
+                                    llote_96@mail.ru
+                                </a>
+                            </li>
+                        </ul>
                     </div>
-                    <div class="developer-avatar"></div>
-                </div>
-                <div class="developer-line"></div>
+                    <div class="developer-avatar">
+                        <img class="developer-avatar-img" src="/img/cat.jpg" alt="Avatar">
+                    </div>
+                </div>   
             </div>
+            <div class="container container-line">
+                <div class="developer-line">
+                    <p class="developer-skill">Junior front-end developer</p>
+                </div> 
+            </div>
+
         </section>
 
         <section class="section-info">
             <div class="container">
                 <ul class="info-list">
                     <li class="info-list-item">
-                        <h2 class="info-list-item-h2">Contacts</h2>
-                        <div class="info-list-item-description"></div>
-                    </li>
-                    <li class="info-list-item">
                         <h2 class="info-list-item-h2">Summary</h2>
-                        <div class="info-list-item-description"></div>
+                        <div class="info-list-item-description">
+                        <p>I like programming. It is fascinating and interesting. I have a main job, programming is a hobby for me. I have completed several training projects and now I would like to take part in the creation of a real JavaScript project. My goal is to learn a pure JavaScript at a good level and learn the React library. I will be glad to join the creation of open source projects. I would like to work under the guidance of an experienced developer to gain practical experience.</p>
+                        </div>
                     </li>
                     <li class="info-list-item">
                         <h2 class="info-list-item-h2">Skills</h2>
@@ -85,7 +102,9 @@
 
     <footer class="footer">
         <div class="container">
-            <a href="" class="footer-logo"></a>
+            <a href="https://rs.school/js/" class="logo">
+                <img class="logo-img" src="/img/logo.svg" alt="Rs scholl">
+            </a>
             <a href="https://github.com/note96" class="footer-link">github.com/note96</a>
             <p>© 2022</p>
         </div>
