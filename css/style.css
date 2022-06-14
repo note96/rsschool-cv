@@ -153,7 +153,7 @@ img {
 
 .developer-item-phone {
     padding-left: 27px;
-    background: url(/img/phone.svg) left no-repeat !important;
+    background: url(img/phone.svg) left no-repeat !important;
     background-size: contain;
 }
 
@@ -167,7 +167,7 @@ img {
 
 .developer-item-mail{
     padding-left: 27px;
-    background: url(/img/mail.svg) left no-repeat !important;
+    background: url(img/mail.svg) left no-repeat !important;
     background-size: contain;
 }
 
