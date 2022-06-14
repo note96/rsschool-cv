@@ -36,7 +36,14 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth; 
+}
+
 body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background: #E5E5E5;;
 }
 
@@ -50,6 +57,7 @@ a:hover {
     color: black; /* Цвет ссылки при наведении на нее курсора мыши */  
     background: #E5E5E5; /* Цвет фона */
     border-radius: 8px;
+    transition: .3s;
    }
 
 ul {
@@ -85,6 +93,10 @@ img {
 
 
 /* Header */
+
+.header {
+    background: #204ECF;
+}
 
 .header-container {
     display: flex;
@@ -278,13 +290,17 @@ img {
 
 /* Footer */
 
+.footer {
+    background: #204ECF;
+}
+
 .footer-container {
     display: flex;
     padding-top: 10px;
     padding-bottom: 10px;
     align-items: center;
     justify-content: space-between;
-    background: #204ECF;
+    background: #204ECF;    
 }
 
 .footer-link {
