@@ -42,8 +42,15 @@ body {
 
 a {
     text-decoration: none;
+    padding: 6px;
     color: black;
 }
+
+a:hover {
+    color: black; /* Цвет ссылки при наведении на нее курсора мыши */  
+    background: #E5E5E5; /* Цвет фона */
+    border-radius: 8px;
+   }
 
 ul {
     margin: 0;
@@ -81,6 +88,8 @@ img {
 
 .header-container {
     display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
     align-items: center;
     justify-content: space-between;
     background: #204ECF;
@@ -131,7 +140,7 @@ img {
 
 .developer-item-phone {
     padding-left: 27px;
-    background: url(/img/phone.svg) left no-repeat;
+    background: url(/img/phone.svg) left no-repeat !important;
     background-size: contain;
 }
 
@@ -145,7 +154,7 @@ img {
 
 .developer-item-mail{
     padding-left: 27px;
-    background: url(/img/mail.svg) left no-repeat;
+    background: url(/img/mail.svg) left no-repeat !important;
     background-size: contain;
 }
 
@@ -177,14 +186,106 @@ img {
     flex-wrap: wrap;
 }
 
-.info-list-item {
-    flex: 1 1 50%;
-    outline: 2px solid red;
+.info-list-item:not(:last-child) {
+    flex: 1 1 48%;
+    padding: 10px;
+    border-bottom: 2px solid #204ECF;;
 }
 
-.info-list-item-description-p {
+.info-list-item:nth-child(2n) {
+    margin-left: 20px;
+} 
+
+.info-list-item-h2 {
+    margin: 15px;
+    font-family: 'Bona Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+
+    color: #8D8D8D;
+}
+
+.info-list-item-description-summary {
     font-family: 'Bona Nova';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
+}
+
+.info-item-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.info-item-list-item {
+    margin: 10px 15px;
+    padding: 8px 16px;
+    gap: 10px;
+
+    font-family: 'Bona Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+
+    color: #000000;
+    background: #EDF1FD;
+    border-radius: 8px;
+}
+
+.info-list-item-code {
+    font-family: 'Bona Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.info-list-item-project {
+    text-align: center;
+}
+
+.info-list-item-project-link {
+    font-family: 'Bona Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.info-item-education {
+    gap: 10px;
+
+    font-family: 'Bona Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    padding-left: 6px;
+    line-height: 150%;
+
+    color: #000000;
+    background: #EDF1FD;
+    border-radius: 8px;
+}
+
+.info-list-item-english {
+    margin: 15px;
+    font-family: 'Bona Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+/* Footer */
+
+.footer-container {
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+    justify-content: space-between;
+    background: #204ECF;
+}
+
+.footer-link {
+    color: #FFFFFF;
 }
