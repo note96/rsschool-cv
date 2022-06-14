@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="css/normalise.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header-container">
+            <a href="https://rs.school/js/" class="logo">
+                <img class="logo-img" src="img/logo.svg" alt="Rs scholl" >
+             </a>
+            <nav class="header-nav">
+                <ul class="header-nav-list">
+                    <li class="header-nav-list-item"> <a href="#summary" class="header-nav-item-link">Summary</a></li>
+                    <li class="header-nav-list-item"> <a href="#skills" class="header-nav-item-link">Skills</a></li>
+                    <li class="header-nav-list-item"> <a href="#code" class="header-nav-item-link">Code</a></li>
+                    <li class="header-nav-list-item"> <a href="#courses" class="header-nav-item-link">Courses</a></li>
+                    <li class="header-nav-list-item"> <a href="#projects" class="header-nav-item-link">Projects</a></li>
+                    <li class="header-nav-list-item"> <a href="#education" class="header-nav-item-link">Education</a></li>
+                    <li class="header-nav-list-item"> <a href="#english" class="header-nav-item-link">English</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="section-developer">
+            <div class="container">
+                <div class="developer">
+                    <div class="developer-name">
+                        <h1 class="developer-name-h1">Evgeny Voronetsky</h1>
+                        <ul class="developer-list">
+                            <li class="developer-item">
+                                <a href="tel:+375447777777" class="developer-item-phone">
+                                    +37544-777-77-77
+                                </a>
+                            </li>
+                            <li class="developer-item">
+                                <a href="mailto:developer-item-mail" class="developer-item-mail">
+                                    llote_96@mail.ru
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="developer-avatar">
+                        <img class="developer-avatar-img" src="img/cat.jpg" alt="Avatar">
+                    </div>
+                </div>   
+            </div>
+            <div class="container container-line">
+                <div class="developer-line">
+                    <p class="developer-skill">Junior front-end developer</p>
+                </div> 
+            </div>
+
+        </section>
+
+        <section class="section-info">
+            <div class="container">
+                <ul class="info-list">
+                    <li class="info-list-item">
+                        <h2 class="info-list-item-h2" id="summary">Summary</h2>
+                        <div class="info-list-item-description">
+                        <p class="info-list-item-description-summary">I like programming. It is fascinating and interesting. I have a main job, programming is a hobby for me. I have completed several training projects and now I would like to take part in the creation of a real JavaScript project. My goal is to learn a pure JavaScript at a good level and learn the React library. I will be glad to join the creation of open source projects. I would like to work under the guidance of an experienced developer to gain practical experience.</p>
+                        </div>
+                    </li>
+                    <li class="info-list-item">
+                        <h2 class="info-list-item-h2" id="skills">Skills</h2>
+                        <ul class="info-item-list">
+                            <li class="info-item-list-item">Figma</li>
+                            <li class="info-item-list-item">Adobe XD</li>
+                            <li class="info-item-list-item">Photoshop</li>
+                            <li class="info-item-list-item">CSS</li>
+                            <li class="info-item-list-item">HTML</li>
+                            <li class="info-item-list-item">JavaScript</li>
+                            <li class="info-item-list-item">PHP</li>
+                            <li class="info-item-list-item">Python</li>
+                        </ul>
+                    </li>
+                    <li class="info-list-item">
+                        <h2 class="info-list-item-h2" id="code">Code</h2>
+                        <p class="info-list-item-code">
+                            <code>
+                                function checkParent (src, dest) {<br>
+                                while (src != null) {<br>
+                                if (src.tagName == dest) return src<br>
+                                    src = src.parentElement<br>
+                                }<br>
+                                return null<br>
+                                }
+                            </code>
+                        </p>
+                    </li>
+                    <li class="info-list-item">
+                        <h2 class="info-list-item-h2" id="courses">Courses</h2>
+                        <ul class="info-item-list">
+                            <li class="info-item-list-item">
+                                <strong>LoftSchool</strong> - Comprehensive training JavaScript
+                            </li>
+                            <li class="info-item-list-item">
+                                <strong> Udemy</strong> - Web Development By Doing: HTML / CSS
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="info-list-item">
+                        <h2 class="info-list-item-h2" id="projects">Project</h2>
+                        <div class="info-list-item-project">
+                            <img src="img/2.png" alt="project markdown">
+                            <a class="info-list-item-project-link" href="https://note96.github.io/rsschool-cv/cv">Project Markdown</a>
+                        </div>
+                    </li>
+                    <li class="info-list-item">
+                        <h2 class="info-list-item-h2" id="education">Education</h2>
+                        <p class="info-item-education">
+                            Minsk , BELARUSIAN STATE UNIVERSITY OF INFORMATICS AND RADIOELECTRONICS
+                        </p>
+                    </li>
+                    <li class="info-list-item">
+                        <h2 class="info-list-item-h2" id="english">English</h2>
+                        <p class="info-list-item-english"><strong>A1 — Survival Level — Beginner и Elementary</strong></p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <a href="https://rs.school/js/" class="logo">
+                <img class="logo-img" src="img/logo.svg" alt="Rs scholl">
+            </a>
+            <a href="https://github.com/note96" class="footer-link">github.com/note96 © 2022</a>
+        </div>
+    </footer>
+</body>
+</html>
