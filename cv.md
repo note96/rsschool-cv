@@ -23,3 +23,14 @@ Maecenas eget consectetur sem, vitae maximus mi. Nulla vel tempus lectus. Nulla 
 3. *Figma*
 4. *JavaScript*
 3. *Git, GitHub*
+**************************************
+
+## Code example: 
+![Cod](lol.png "Cod")
+
+*****************************************
+
+## Languages:
+
+* English - A1
+* Russian - Norm
