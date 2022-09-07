@@ -26,7 +26,7 @@ Maecenas eget consectetur sem, vitae maximus mi. Nulla vel tempus lectus. Nulla 
 **************************************
 
 ## Code example: 
-![Cod](lol.png "Cod")
+![Cod](2.png "Cod")
 
 *****************************************
 
